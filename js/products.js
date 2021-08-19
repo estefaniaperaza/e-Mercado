@@ -18,7 +18,7 @@ function showProducts(array) {
         <small class="text-muted">`+ product.soldCount + ` vendidos</small> 
         </div>
         <p class="mb-1">` + product.description + `</p>
-        <p class="mb-1">` + product.currency + " " + product.cost +  `</p>
+        <p class="mb-1" id="precio">` + product.currency + " " + product.cost +  `</p>
         <br><br><br><hr><br><br>
         </div>
         </div>
