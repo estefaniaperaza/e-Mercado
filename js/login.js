@@ -26,3 +26,7 @@ document.addEventListener("DOMContentLoaded", function(e){
     )
 
 });
+
+function cambiarPagina() {
+    window.location = "inicio.html";
+  }
