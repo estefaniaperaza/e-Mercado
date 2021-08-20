@@ -1,13 +1,14 @@
 var productsArray = [];
 
 function showProducts(array) {
-    let listado = "<hr>";
+    let listado = "";
     for (let i = 0; i < array.length; i++){
 
         let product = array[i];
         
         
         listado += ` 
+        <hr>
         <div class="row">
         <div class="col-3">
         <img src="` + product.imgSrc +  `" class="img-thumbnail">
