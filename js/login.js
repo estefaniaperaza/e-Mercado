@@ -21,12 +21,10 @@ document.addEventListener("DOMContentLoaded", function(e){
         } else {
             inputPassword.classList.remove("invalid")
         }
-        
+        if (camposCompletos) {
+            window.location = "inicio.html";
+        }
     }
     )
 
 });
-
-function cambiarPagina() {
-    window.location = "inicio.html";
-  }
