@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(e){
         if (inputEmail.value === '') {
             inputEmail.classList.add("invalid");
             camposCompletos = false;
-            alert("Debe escribir su Email");
+            alert("Debe ingresar su Email");
         } else {
             inputEmail.classList.remove("invalid")
         }
