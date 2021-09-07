@@ -148,3 +148,9 @@ a.custom-card:hover {
 .invalid {
   background-color: rosybrown;
 }
+
+#datos {
+  color: white;
+  text-align: right;
+  margin-top: 10px;
+}
